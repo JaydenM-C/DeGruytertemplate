@@ -1,4 +1,4 @@
-Package: DeGruyter_template
+Package: DeGruytertemplate
 Title: De Gruyter Journal Template for R Markdown
 Version: 0.0.0.9000
 Authors@R: person("Jayden", "Macklin-Cordes", email = "j.macklincordes@uq.edu.au", role = c("aut", "cre"))
