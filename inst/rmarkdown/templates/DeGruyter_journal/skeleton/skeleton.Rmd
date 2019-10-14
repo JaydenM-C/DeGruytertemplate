@@ -32,7 +32,8 @@ dedication:
 received:
 accepted:
 
-journal: Journal Title
+journal: 
+  name: Journal Title
   year:
   volume:
   issue:
