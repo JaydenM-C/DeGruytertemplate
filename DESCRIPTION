@@ -1,0 +1,9 @@
+Package: CLtemplate
+Title: Computational Linguistics Journal Template for R Markdown
+Version: 0.0.0.9000
+Authors@R: person("Jayden", "Macklin-Cordes", email = "j.macklincordes@uq.edu.au", role = c("aut", "cre"))
+Description: This package provides an R markdown template for the journal Computational Linguistics. It is an unofficial, unendorsed template.
+Depends: R (>= 3.4.3)
+License: MIT
+Encoding: UTF-8
+LazyData: true

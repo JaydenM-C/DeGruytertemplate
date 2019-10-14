@@ -1,0 +1,44 @@
+---
+# Computational Linguistics Journal Template
+# See README for template instructions. Consult journal submission and style guidelines.
+CL_style: 
+
+issue:
+  volume: 
+  number: 
+  year: 
+  
+history_dates: "Submission received: "
+document_head: 
+
+title: Computational Linguistics Template
+
+author:
+  - name: Firstname Lastname
+    affiliation: 
+    contact_address: 
+  - name: 
+    affiliation: 
+    contact_address: 
+
+running_title: CL Template
+running_author: Lastnameonly
+
+abstract: This is a template for the `CLV3` style used by the journal _Computational Linguistics_. Place here an informative abstract of approximately 150-250 words.
+acknowledgements: 
+
+output: 
+  pdf_document:
+    template:
+      cl-template.tex
+    keep_tex: true
+  citation_package: natbib
+bibliography: 
+biblio-style: compling.bst
+natbib_citations: true # if false, consider uncommenting 'link-citations: yes' below. 
+#link-citations: yes
+---
+
+# Introduction
+
+Main body of the document goes here.
