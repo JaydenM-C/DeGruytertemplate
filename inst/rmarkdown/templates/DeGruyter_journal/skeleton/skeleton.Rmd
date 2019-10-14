@@ -1,8 +1,13 @@
 ---
 # De Gruyter Journal Template
 # See README for template instructions. Consult journal submission and style guidelines.
-articletype:
-  
+articletype: 
+
+correspondingauthor:
+  - name: Firstname Lastname
+    affiliation: 
+    
+runningauthor: Lastname
 author:
   - name: Firsname Lastname
     affiliation: 1
@@ -19,34 +24,33 @@ affiliations:
 
 title: De Gruyter journal article
 subtitle: An Rmarkdown template
-running_title: De Gruyter journal article
+runningtitle: De Gruyter journal article
 
 abstract: This is a template for the De Gruyter article style used by the journal _Linguistic Typology_, among many others. Place here an informative abstract of approximately 100-200 words.
-PACSclassification:
-keywords:
+PACSclassification: 
+keywords: 
 
-acknowledgement:
-  
-communicated:
-dedication:
-received:
-accepted:
+acknowledgement: 
 
-journal: 
+communicated: 
+dedication: 
+received: 
+accepted: 
+
+journal:
   name: Journal Title
-  year:
-  volume:
-  issue:
+  year: 
+  volume: 
+  issue: 
 
-DOI:
+DOI: 
 
-output: 
+output:
   pdf_document:
-    template:
-      article.tex
+    template: article.tex
     keep_tex: true
-bibliography:
-biblio-style:
+bibliography: 
+bibliographystyle: 
 ---
 
 # Introduction
