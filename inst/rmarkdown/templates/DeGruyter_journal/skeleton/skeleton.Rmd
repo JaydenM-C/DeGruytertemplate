@@ -4,8 +4,8 @@
 articletype: 
 
 correspondingauthor:
-  - name: Firstname Lastname
-    affiliation: 1
+  name: Firstname Lastname
+  affiliation: 1
     
 runningauthor: Lastname
 author:
@@ -50,7 +50,7 @@ output:
     template: article.tex
     keep_tex: true
 bibliography: references.bib
-# bibliographystyle: 
+# bibliographystyle: #
 ---
 
 # Introduction
