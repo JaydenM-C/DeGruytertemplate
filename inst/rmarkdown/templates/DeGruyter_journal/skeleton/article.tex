@@ -72,7 +72,8 @@ $endif$
 
 % journal details
 $if(journal)$
-  \journalname{$journal$}
+$if(journal.name)$
+  \journalname{$journal.name$}
 $endif$
 $if(journal.year)$
   \journalyear{$journal.year$}
@@ -82,6 +83,7 @@ $if(journal.volume)$
 $endif$
 $if(journal.issue)$
   \journalissue{journal.issue}
+$endif$
 $endif$
   \startpage{1}
   \aop
