@@ -1,20 +1,23 @@
 # Computational Linguistics journal R Markdown template
 _Jayden Macklin-Cordes_  
-_Last update: 18 May 2018_
+_Last update: 14 October 2019_
 
-This is an R package for authoring *Computational Linguistics* journal articles in R Markdown. It provides an R Markdown template for producing complete manuscripts in the *Computational Linguistics* style. Enjoy the full functionality and readability of R Markdown while authoring your manuscript, and knit directly into a properly-formatted, submission-ready document.
+This is an R package for authoring De Gruyter journal manuscripts in R Markdown. It provides an R Markdown template for producing complete manuscripts in the De Gruyter style. Enjoy the full functionality and readability of R Markdown while authoring your manuscript, and knit directly into a properly-formatted, submission-ready document.
 
-The LaTeX class and bst files are up-to-date as of 18 May 2018. I'll endeavour to keep it up-to-date but no promises.
+The LaTeX class and bst files are up-to-date as of 14 October 2019. I'll endeavour to keep it up-to-date but no promises.
 
-Please keep in mind this package is unofficial and not associated or endorsed in any way by the Association for Computational Linguistics. It is purely my own project for making *Computational Linguistics* articles easier to write in R Markdown. Anyone using this template for their own work takes full responsibility conforming with the journal submission format and guidelines.
+Please keep in mind this package is unofficial and not associated or endorsed in any way by De Gruyter. It is purely my own project for making *Linguistic Typology* journal articles easier to write in R Markdown. Anyone using this template for their own work takes full responsibility conforming with the journal submission format and guidelines.
 
 # Installation
 
 Download the package `devtools`, if you don't have it already.
 
-Install the package in the R console with `devtools::install_github("JaydenM-C/CLtemplate")`
+Install the package in the R console with `devtools::install_github("JaydenM-C/DeGruyter_template")`
 
-When opening a new R Markdown document in RStudio via `New file > R Markdown...`, the regular dialogue box will pop up. Navigate to `From template`, and you should see the option to select a template called `Computational Linguistics journal`. If you've just installed the package, you may need to restart RStudio before it will appear in the list.
+When opening a new R Markdown document in RStudio via `New file > R Markdown...`, the regular dialogue box will pop up. Navigate to `From template`, and you should see the option to select a template called `De Gruyter journal`. If you've just installed the package, you may need to restart RStudio before it will appear in the list.
+
+
+UPDATE CL TEMPLATE README BELOW THIS POINT
 
 # Usage
 
