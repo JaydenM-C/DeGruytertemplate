@@ -90,15 +90,17 @@ $endif$
 
 $if(DOI)$
   \DOI{$DOI$}
-$DOI$
+$endif$
 
 \maketitle
 
 $body$
 
+$if(acknowledgement)$
 \begin{acknowledgement}
   $acknowledgement$
 \end{acknowledgement}
+$endif$
 
 $if(bibliographystyle)$
 \bibliographystyle{$bibliographystyle$}
