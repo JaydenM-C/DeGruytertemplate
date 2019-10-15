@@ -1,0 +1,113 @@
+\documentclass[USenglish]{article}
+
+\usepackage[utf8]{inputenc}%(only for the pdftex engine)
+%\RequirePackage[no-math]{fontspec}[2017/03/31]%(only for the luatex or the xetex engine)
+\usepackage[small]{dgruyter}
+\usepackage{microtype}
+
+\begin{document}
+
+$if(articletype)$
+  \articletype{$articletype$}
+$endif$
+
+% authorship and affiliation details
+
+$if(correspondingauthor)$
+  \author*[$correspondingauthor.affiliation$]{$correspondingauthor.name$}
+$endif$
+
+$if(author)$
+$for(author)$
+  \author[$author.affiliation$]{$author.name$}
+$endfor$
+$endif$
+
+$if(runningauthor)$
+  \runningauthor{$runningauthor$}
+$endif$
+
+$if(affiliations)$
+$for(affiliations)$
+  \affil[$affiliations.ref$]{$affiliations.institution$}
+$endfor$
+$endif$
+
+% title details
+  \title{$title$}
+$if(runningtitle)$
+  \runningtitle{$runningtitle$}
+$endif$
+$if(subtitle)$
+  \subtitle{$subtitle$}
+$endif$
+
+% abstract, keywords and PACS classification
+$if(abstract)$
+  \abstract{$abstract$}
+$endif$
+$if(keywords)$
+  \keywords{$keywords$}
+$endif$
+$if(PACSclassification)$
+  \classification[PACS]{$PACSclassification$}
+$endif$
+
+% submission details
+$if(communicated)$
+  \communicated{$communicated$}
+$endif$
+
+$if(dedication)$
+  \dedication{$dedication$}
+$endif$
+
+$if(received)$
+  \received{$received$}
+$endif$
+
+$if(accepted)$
+  \accepted{$accepted$}
+$endif$
+
+% journal details
+$if(journal)$
+$if(journal.name)$
+  \journalname{$journal.name$}
+$endif$
+$if(journal.year)$
+  \journalyear{$journal.year$}
+$endif$
+$if(journal.volume)$
+  \journalvolume{$journal.volume$}
+$endif$
+$if(journal.issue)$
+  \journalissue{journal.issue}
+$endif$
+$endif$
+  \startpage{1}
+  \aop
+
+$if(DOI)$
+  \DOI{$DOI$}
+$endif$
+
+\maketitle
+
+$body$
+
+$if(acknowledgement)$
+\begin{acknowledgement}
+  $acknowledgement$
+\end{acknowledgement}
+$endif$
+
+$if(bibliographystyle)$
+\bibliographystyle{$bibliographystyle$}
+$endif$
+
+$if(bibliography)$
+\bibliography{$bibliography$}
+$endif$
+
+\end{document}

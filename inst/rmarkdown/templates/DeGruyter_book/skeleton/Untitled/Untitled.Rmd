@@ -1,0 +1,47 @@
+---
+# De Gruyter book template
+# See README for template instructions.
+# See book.tex template for example of how to enter book contribution headers
+# (you'll have to add the raw LaTeX to the body of the markdown file)
+
+author:
+  name: Firstname Lastname
+  authorinfo: 
+
+title: De Gruyter Book
+subtitle: An R markdown template
+
+series:
+  title:
+  subtitle:
+  editor:
+  volume:
+    
+editor:
+collaborator:
+
+classification:
+  system: "Mathematics Subject Classification 2010"
+  code: "35-02, 65-02, 65C30, 65C05, 65N35, 65N75, 65N80"
+
+isbn:
+eisbnpdf:
+copyrighttext:
+
+cover: Cover-Firma
+
+typesetter:
+printbind:
+
+dedication:
+preface:
+
+bibliographystyle: plain
+bibliography: references.bib
+---
+
+# Introduction
+
+Main body of the document goes here.
+
+# References {-}
