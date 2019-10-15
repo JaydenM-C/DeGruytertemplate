@@ -36,6 +36,10 @@ printbind:
 dedication:
 preface:
 
+output:
+  pdf_document:
+    template: book.tex
+    keep_tex: true
 bibliographystyle: plain
 bibliography: references.bib
 ---
