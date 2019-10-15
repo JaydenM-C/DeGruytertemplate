@@ -1,13 +1,14 @@
 ---
-# De Gruyter Journal Template
+# De Gruyter article template
 # See README for template instructions. Consult journal submission and style guidelines.
-articletype: 
+articletype:   # E.g. "Book review"
 
 correspondingauthor:
   name: Firstname Lastname
   affiliation: 1
     
 runningauthor: Lastname
+
 author:
   - name: Firsname Lastname
     affiliation: 1
