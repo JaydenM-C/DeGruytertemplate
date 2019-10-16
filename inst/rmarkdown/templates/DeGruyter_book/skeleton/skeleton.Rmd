@@ -44,6 +44,11 @@ bibliographystyle: plain
 bibliography: references.bib
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(knitr)
+```
+
 # Introduction
 
 Main body of the document goes here.
