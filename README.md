@@ -8,6 +8,10 @@ The LaTeX template files are up-to-date as of 14 October 2019. I'll endeavour to
 
 Please keep in mind this package is unofficial and not associated or endorsed in any way by De Gruyter. It is purely my own project for making *Linguistic Typology* journal articles easier to write in R Markdown. Anyone using this template for their own work takes full responsibility conforming with the journal submission format and guidelines.
 
+# Latest news
+
+16 Oct 2019: Note that this package is a work-in-progress. The book template has not been thoroughly tested. There is an outstanding issue with 'acknowledgement' and 'keywords' fields in the article template [see the issue here](https://github.com/JaydenM-C/DeGruytertemplate/issues/1). Please feel free to post an issue for any problems that arise and also help/propose solutions for existing issues.
+
 # Installation
 
 Download the package `devtools`, if you don't have it already.
